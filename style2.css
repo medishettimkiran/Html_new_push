@@ -1,0 +1,26 @@
+body{
+font-size:30px;
+
+}
+
+h1,h2{
+color:green;
+
+}
+.kiran{
+color:blue;
+}
+#first{
+font-style:italic;
+
+}
+p span.arun {
+text-transform:lowercase;
+background-color:yellow;
+color:white;
+
+}
+*{
+font-family:monospace;
+background-color:pink;
+}

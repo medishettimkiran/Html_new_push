@@ -1,0 +1,136 @@
+.container{
+                width:100vw;
+                height:100vh;
+                /*background-color: rgb(106, 0, 255);*/
+                border-width: 120px 120px 0px 120px;
+                border-style:solid;
+                border-color:#35085f;
+                box-sizing: border-box;
+                
+                display:flex;
+
+            }
+            footer{
+                width:100vw;
+                height:120px;
+                background-color: #35085f;
+                text-align: center;
+                padding-top: 60px;
+                font-size: 14px;
+                color:white;
+
+
+            }
+            .logo{
+                padding-top: 50px;
+                padding-left: 30px;
+            }
+            .heading {
+                font-family: Arial ,sans-serif;
+                font-size:20px;
+                padding-top: 5px;
+                color:brown;
+                padding-left: 0px;
+                position:absolute;
+                left:330px;
+            
+                
+            }
+            h2{
+                color:blue;
+                font-size:20px;
+                position:relative;
+                top:-30px;
+                left:10px;
+            }
+            h3{
+                color:blue;
+                font-size: 15px;
+                position:relative;
+                top:-40px;
+                left:10px;
+
+            }
+            #k{
+                color:black;
+                font-size: 10px;
+                position:relative;
+                top:-50px;
+                left:10px;
+
+            }
+              #v{
+                color:black;
+                font-size:20px;
+                position:relative;
+                top:-60px;
+                left:30px;
+
+                
+            }
+            .vtu{
+                
+                position:relative;
+                left:-100px;
+                top:-40px;
+                
+            }
+            #firstname{
+                background-color: #e1f3f7;
+            }
+            #password{
+                background-color: #e1f3f7;
+            }
+            input[type=text] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 2px solid black;
+            }
+            input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: none;
+                border-bottom: 2px solid black;
+              }
+              #button{
+                width:80%;
+                border-radius: 10px;
+                background-color:#6a19b5;
+                color:white;
+                font-family: sans-serif;
+              }
+              .container2{
+                position:absolute;
+                right:60vw;
+                top: 70vh;
+
+                font-size: 15px;
+                text-decoration: underline;
+                color:brown;
+              }
+              aside{
+                width: 40vw;
+                height:82vh;
+                
+                float: right;
+                position:absolute;
+                top:18vh;
+                right: 100px;
+                padding-bottom: 75px;
+                background-color: lightgray;
+                
+                border-radius: 10px;
+                background-image: url("books.jpg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                box-sizing: border-box;
+                
+              }
+              

@@ -1,0 +1,79 @@
+<!--<html>
+<head>
+<style>
+h1::first-letter{
+text-transform:uppercase;
+color:red;
+}
+h2::first-line{
+text-transform:uppercase;
+color:orange;
+}
+p::after{
+content:"hai how are you?";
+color:blue;
+}
+h4::before{
+content:"hai how are you?";
+color:blue;
+}
+h5::selection{
+content:"hai how are you?";
+background-color:yellow;
+color:blue;
+}
+
+
+
+</style>
+</head>
+<body>
+<h1> learning  Psuedoselectors </h1>
+<h2> learning  Psuedoselectors </h2>
+<h3> learning  Psuedoselectors </h3>
+<h4> learning  Psuedoselectors </h4>
+<h5> learning  Psuedoselectors </h5>
+<p> fjnsfkjgngkjengnr gnrgiogghiguhghusggiughiughiguhgug </p>
+
+</body>
+</html>-->
+<html>
+<head>
+<style>
+<!--h1[title="para-graph"]{
+background-color:red;
+font-size:40px;
+color:green;
+}-->
+h2[title~="para"]{
+background-color:red;
+font-size:40px;
+color:green;
+}
+h3[title|="para"]{
+background-color:red;
+font-size:40px;
+color:green;
+}
+h4[title^="para"]{
+background-color:red;
+font-size:40px;
+color:green;
+}
+h5[title$="graph"]{
+background-color:red;
+font-size:40px;
+color:green;
+}
+
+
+</style>
+</head>
+<body>
+<h1 title="para-graph"> learning  Psuedoselectors </h1>
+<h2 title="para graph"> learning  Psuedoselectors </h2>
+<h3 title="para graph"> learning  Psuedoselectors </h3>
+<h4 title="para graph"> learning  Psuedoselectors </h4>
+<h5> learning  Psuedoselectors </h5>
+</body>
+</html>

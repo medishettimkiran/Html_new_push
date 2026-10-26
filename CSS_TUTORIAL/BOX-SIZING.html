@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+#m{
+width:400px;
+height:400px;
+background:blue;                  /*content box*/
+box-sizing:content-box;
+padding:20px;
+border:20px groove yellow;
+}
+#n{
+width:400px;
+height:400px;                /*border-box: it adds all like padding,bordersize     that adjust in the border box ,not increasing size */
+background:green;
+box-sizing:border-box;
+padding:30px;
+border:20px groove orange;
+}
+</style>
+</head>
+<body>
+<div id="m">
+Contentbox
+</div>
+<br>
+<div id="n">
+border box
+</div>
+</body>
+</html>

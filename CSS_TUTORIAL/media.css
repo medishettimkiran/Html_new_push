@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size:35px;
+    background:skyblue;
+}
+.container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+#size{
+    position: absolute;
+    top:60px;
+    left:50px;
+    transform:translateX(-50%);
+    
+    color:white;
+}
+@media print and( max-width:1000){
+    body{
+        background-color: red;
+    
+
+    }
+    
+    
+}

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+           .p{
+            width:200px;
+            height:200px;
+                background-color: yellow;
+                animation-name: kiran;
+                animation-iteration-count: 3;
+                animation-duration: 5s;
+                margin: 100px;
+                animation-delay: 3s;
+                animation-fill-mode: backwards;
+                animation-direction: alternate-reverse;
+                animation-play-state: paused;
+
+            }
+            .p:hover{
+                animation-play-state: running;
+            }
+            @keyframes kiran{
+                from{
+                    height:200px;
+                    width:200px;
+                    background-color: yellow;
+                    border-radius: 50% ;
+                    border:2px groove black;
+
+                }
+                to{
+                    height:300px;
+                    width: 300px;
+                    background-color: red;
+                    transform:translateX(450px);
+                    transform:rotate(360deg);
+                    border-radius: 100%;
+                    border:20px groove black;
+
+
+                    
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="p"> box</div>
+
+    </body>
+</html>

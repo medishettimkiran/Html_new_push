@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <style>
+        .container{
+            height:100vh;
+            width:100%;
+            justify-content:center;
+            display:flex;
+
+            
+            align-items: center;
+        }
+        .display1{
+            width:300px;
+            justify-content: center;
+            align-items: center;
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .circle{
+            border-radius: 50%;
+            height:32px;
+            width:32px;
+            background-color: aqua;
+            opacity: 0.6;
+            margin:25px;
+        }
+        
+        .circle:nth-child(1){
+            animation:arun 2s infinite;
+        }
+        .circle:nth-child(2){
+            animation:arun 5s infinite;
+        }
+        .circle:nth-child(3){
+            animation:arun 0.7s infinite;
+        }
+        .circle:nth-child(4){
+            animation:arun 1.7s infinite;
+        }.circle:nth-child(5){
+            animation:arun 2s infinite;
+        }
+        .circle:nth-child(6){
+            animation:arun 1.2s infinite;
+        }
+        .circle:nth-child(7){
+            animation:arun 1.6s infinite;
+        }
+        .circle:nth-child(8){
+            animation:arun 1.1s infinite;
+        }
+        .circle:nth-child(9){
+            animation:arun 1.9 infinite;
+        }
+        
+        @keyframes arun{
+            0%{
+                opacity:0.6;
+                border-radius: 50%;
+            }
+            50%{
+                opacity:0.7;
+                border-radius:50%;
+                height:50px;
+                width:50px;
+
+            }
+            100%{
+                opacity: 1;
+                border-radius: 50%;
+                height:25px;
+                width:25px;
+            }
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+        <div class="display1">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div> 
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        </div>
+    </body>
+</html>
